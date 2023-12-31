@@ -5,18 +5,18 @@ RSpec.describe 'Numbers Exercises' do
 
   describe 'addition exercise' do
 
-    it 'adds two positive numbers' do
+    xit 'adds two positive numbers' do
       expect(add(1, 2)).to eq(3)
     end
 
-    it 'adds two negative numbers' do
+    xit 'adds two negative numbers' do
       expect(add(-2, -3)).to eq(-5)
     end
   end
 
   describe 'subtraction exercise' do
 
-    it 'subtracts two numbers' do
+    xit 'subtracts two numbers' do
       expect(subtract(5, 3)).to eq(2)
     end
   end

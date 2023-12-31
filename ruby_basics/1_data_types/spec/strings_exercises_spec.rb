@@ -16,40 +16,40 @@ RSpec.describe 'String Exercises' do
       expect(concatenate('world')).to eq('Hello world!')
     end
 
-    xit 'returns "Hello universe!"' do
+    it 'returns "Hello universe!"' do
       expect(concatenate('universe')).to eq('Hello universe!')
     end
   end
 
   describe 'substrings exercise' do
 
-    xit 'returns the first 4 letters of the word' do
+    it 'returns the first 4 letters of the word' do
       expect(substrings('chocolate')).to eq('choc')
     end
   end
 
   describe 'capitalizing exercise' do
 
-    xit 'capitalizes a word' do
+    it 'capitalizes a word' do
       expect(capitalize('paris')).to eq('Paris')
     end
 
-    xit 'only capitalizes the first word if there are multiple words' do
+    it 'only capitalizes the first word if there are multiple words' do
       expect(capitalize('miami in the summer')).to eq('Miami in the summer')
     end
 
-    xit 'leaves an already capitalized word as is' do
+    it 'leaves an already capitalized word as is' do
       expect(capitalize('London')).to eq('London')
     end
   end
 
   describe 'uppercasing exercise' do
 
-    xit 'uppercases a word' do
+    it 'uppercases a word' do
       expect(uppercase('small')).to eq('SMALL')
     end
 
-    xit 'uppercases multiple words' do
+    it 'uppercases multiple words' do
       expect(uppercase('make me bigger')).to eq('MAKE ME BIGGER')
     end
   end
