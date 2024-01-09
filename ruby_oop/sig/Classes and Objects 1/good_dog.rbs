@@ -1,0 +1,11 @@
+class GoodDog
+  @name: untyped
+
+  attr_accessor name: untyped
+
+  def initialize: (untyped name) -> void
+
+  def change_info: -> untyped
+
+  def speak: () -> untyped
+end
